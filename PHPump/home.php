@@ -14,8 +14,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <h3>Dobro došao, <?php echo $_SESSION['name']; ?></h3>
         <a href="logout.php">Logout</a> </br>
         <div class="link-container">
-        <a href="clanovi.php" class="linkovi">Članovi</a>
-        <a href="clanarine.php" class="linkovi">Članarine</a></div>
+        <a href="clanoviCRUD.php" class="linkovi">Članovi</a>
+        <a href="clanarineCRUD.php" class="linkovi">Članarine</a></div>
         
 </body>
 </html>

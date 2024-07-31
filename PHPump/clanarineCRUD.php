@@ -7,7 +7,7 @@
 <body>
     <div class="container my-5">
         <h2>Lista Članarina</h2>
-        <a class="btn btn-danger mb-3" href="/PHPump/home.php" role="button">Nazad</a>
+        <a class="btn btn-danger mb-3" href="home.php" role="button">Nazad</a>
         <a class="btn btn-primary mb-3" href="/PHPump/createClanarine.php" role="button">Dodaj Članarinu</a>
         <table class="table">
             <thead>
