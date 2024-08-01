@@ -106,3 +106,64 @@ a.linkovi:hover {
     background: #333;
     color: white; 
 }
+
+select {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+select:focus {
+    border-color: #1690A7; 
+    outline: none;
+}
+
+option {
+    padding: 10px; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+thead tr {
+    background-color: #1690A7;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+th, td:first-child {
+    text-align: center;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #1690A7;
+}
+
